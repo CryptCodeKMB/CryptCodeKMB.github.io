@@ -1,0 +1,4 @@
+---
+layout: resource
+permalink: /resource/
+---

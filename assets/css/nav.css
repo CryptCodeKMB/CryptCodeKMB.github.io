@@ -1,0 +1,81 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+
+div.topnav {
+    background-color: #466ee0;
+    overflow: none;
+    padding: 30px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10001;
+}
+
+div.topnav a {
+    color: #ffffff;
+    background-color: #93acf2;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1em;
+}
+
+
+div.topnav a:hover {
+    color: #466ee0;
+    background-color: #ffffff;
+    transition:.5s;
+}
+
+div.topnav .active{
+    color: #466ee0;
+    background-color: #ffffff;
+}
+
+div.empty {
+    padding: 50px 20px;
+}
+
+div.circleWrap {
+    border-radius: 50%;
+    position: fixed;
+    z-index: 10000;
+  }
+
+div.circle {
+    position: fixed;
+    width: 5em;
+    height: 5em;
+    background: #466ee0;
+    z-index: 10000;
+    bottom:35px;
+    right:35px;
+  }
+
+ @keyframes circleanim{
+    0% {}
+    25% {}
+    50% {}
+    75% {}
+    100% {}
+ }
+
+a.copy {
+    background-color: #93acf2;
+    text-align: center;
+    padding: 3px 10px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 12px;
+    font-size: 10px;
+    border: 0;
+    translateY: 10px;
+}
+
+a.copy hover {
+
+}
